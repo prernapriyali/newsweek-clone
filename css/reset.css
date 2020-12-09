@@ -1,0 +1,30 @@
+/** header */
+body {
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+.bg-red {
+	background-color: #f72210;
+}
+
+.trendic-topic-wrapper{
+	display: block;
+	border-top: 1px solid;
+	margin-top: 13px;
+}
+
+.text-color-a:hover {
+	color: #f72210;
+}
+
+.right-block a:hover,
+.text-absolut:hover,
+.hover-a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.topics {
+	text-align: left;
+	list-style-type:none;
+}
