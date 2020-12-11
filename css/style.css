@@ -1,41 +1,6 @@
 /** header */
 
-body {
-	font-family: "Roboto Condensed", sans-serif;
-}
 
-.bg-red {
-	background-color: #f72210;
-}
-
-.trendic-topic-wrapper{
-	display: block;
-	border-top: 1px solid;
-	margin-top: 13px;
-}
-
-.text-color-a:hover {
-	color: #f72210;
-}
-
-.right-block a:hover,
-.text-absolut:hover,
-.hover-a:hover {
-	text-decoration: none;
-	color: red;
-}
-
-.topics {
-	text-align: left;
-	list-style-type:none;
-}
-
-.a-black {
-	color: black;
-	padding-left: 10px;
-	text-transform: capitalize;
-	font-weight: bold;
-}
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Condensed:wght@300;400;700&display=swap");
 
 * {
@@ -219,7 +184,7 @@ body {
     font-size: 20px;
   }
 }
-
-.float-right{
-	float: right;
-  }
+.sticky {
+  position: sticky;
+  top: 60px;
+}
